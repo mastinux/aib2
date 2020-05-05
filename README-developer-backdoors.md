@@ -1,7 +1,5 @@
 ## Developer Backdoor
 
-Codice Vulnerabile:
-
 > app/src/main/java/com/android/insecurebankv2/DoLogin.java
 
 ```
@@ -19,3 +17,5 @@ if (username.equals("devadmin")) {
 	responseBody = httpclient.execute(httppost);
 }
 ```
+
+- uso username `devadmin` e password vuota

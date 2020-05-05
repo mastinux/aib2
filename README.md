@@ -37,11 +37,11 @@
 
 `$ unzip InsecureBankv2.apk -d InsecureBankv2_apk`
 
-`cd InsecureBankv2_apk`
+`$ cd InsecureBankv2_apk`
 
 `$ d2j-dex2jar classes.dex`
 
-`jadx-gui classes-dex2jar.jar`
+`$ jadx-gui classes-dex2jar.jar`
 
 #### Reading Android Memory
 
@@ -79,7 +79,6 @@ dal login `Add to dictionary` dell'username
 ...
 1|dinesh|250|en_US|0|
 ...
-
 ```
 
 #### Android Pasteboard
@@ -90,7 +89,7 @@ dal login `Add to dictionary` dell'username
 u0_a60    6101  1153  1301764 55260 ffffffff 30ac5b7a S com.android.insecurebankv2
 ```
 
-- `adb shell su u0_a60 service call clipboard 2 s16 com.android.insecurebankv2`
+- `$ adb shell su u0_a60 service call clipboard 2 s16 com.android.insecurebankv2`
 
 ```
 Result: Parcel(
