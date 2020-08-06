@@ -31,17 +31,7 @@
 
 > https://github.com/skylot/jadx
 
-> https://github.com/pxb1988/dex2jar
-
-`$ mkdir InsecureBankv2_apk`
-
-`$ unzip InsecureBankv2.apk -d InsecureBankv2_apk`
-
-`$ cd InsecureBankv2_apk`
-
-`$ d2j-dex2jar classes.dex`
-
-`$ jadx-gui classes-dex2jar.jar`
+`$ jadx-gui InsecureBankv2.apk`
 
 #### Reading Android Memory
 
